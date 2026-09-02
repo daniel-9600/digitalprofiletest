@@ -11,7 +11,7 @@ public class ocampoprofile {
     int myage = 16;
     // for the output part
         System.out.println("Hello! My name is " + myname + " On the internet, I usually go by " + nickname);
-        System.out.println("I enjoy gaming and coding, and I usually use " + favgame + " " + ideused);
+        System.out.println("I enjoy gaming and coding, and I usually play " + favgame + " and use " + ideused);
         System.out.println("My birthday is on September 6, and I am soon to be " + myage);
     }
 }
