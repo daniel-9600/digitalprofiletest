@@ -13,7 +13,7 @@ public class ExampleUnitTest {
         // INPUT, for storing the personal details
         String Myname = "Daniel";
         String Nickname = "Denial";
-        String favGame = "Expediton33";
+        String favGame = "Expedition33";
         int Myage = 16;
 
         // OUTPUT, printing the variables to the console
