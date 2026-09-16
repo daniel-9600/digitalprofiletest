@@ -1,4 +1,4 @@
-package com.example.myapplication.quarter2;
+package com.example.myapplication.quarter2.minipeta2;
 import org.junit.Test;
 public class ocampoprofile {
     @Test
