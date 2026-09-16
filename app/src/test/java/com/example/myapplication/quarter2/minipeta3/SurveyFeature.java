@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class SurveyFeature {
 
 
-    public void start(Scanner scanner, boolean Survey) {
+    public boolean execute(Scanner scanner, boolean Survey) {
         System.out.println("===WELCOME TO THE EXAMPLE SEGMENT===");
         System.out.println("==Sample3==");
-
         int choice = 1;
         boolean Choosing = true;
         while (Choosing) {
@@ -16,7 +15,8 @@ public class SurveyFeature {
                 System.out.println("Answered Yes");
             } else {
                 System.out.println("Answered No");
-            }
+            } choice++;
+        return Survey = true;
         }
     }
 }
