@@ -7,7 +7,7 @@ public class SurveyFeature {
 
     public void start(Scanner scanner, boolean Survey) {
         System.out.println("===WELCOME TO THE EXAMPLE SEGMENT===");
-        System.out.println("==Sample==");
+        System.out.println("==Sample2==");
 
         int choice = 1;
         boolean Choosing = true;
