@@ -5,20 +5,22 @@ import java.util.Scanner;
 public class SurveyFeature {
 
 
-    public static boolean execute(Scanner scanner, boolean Survey) {
+    public static void execute(Scanner scanner) {
         System.out.println("===WELCOME TO THE EXAMPLE SEGMENT===");
-        System.out.println("==Sample3==");
         int choice = 2;
-
         boolean Choosing = true;
+
         while (Choosing) {
             if (choice % 2 == 0) {
                 System.out.println("Answered Yes");
+                System.out.println("===============");
+                choice--;
             } else {
                 System.out.println("Answered No");
-            } choice--;
+                System.out.println("===============");
+            } Choosing = false;
 
         }
-        return Survey;
+
     }
 }

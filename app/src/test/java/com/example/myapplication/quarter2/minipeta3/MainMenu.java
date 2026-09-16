@@ -16,7 +16,10 @@ public class MainMenu {
             if (choice == 1) {
                 System.out.println("Taking the test!");
                 System.out.println("=========================");
-                SurveyFeature.execute(scanner, choice);
+                SurveyFeature surveyFeature = new SurveyFeature();
+                SurveyFeature.execute(scanner);
+
+
             } else if (choice == 2) {
                 System.out.println("Checking possible courses...");
                 System.out.println("=========================");
