@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PostSurveyFeature {
   public static void execute(Scanner scanner) {
-    int Scores = 50;
+    int Scores = scanner.nextInt();
     boolean isRunning = true;
 
     while (isRunning) {
