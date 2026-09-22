@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class possibleCoursesFeature {
 
     public static void execute(Scanner scanner) {
-        int choice = 0;
+        int choice = scanner.nextInt();
         boolean choosing = true;
         System.out.println("Possible Courses are = ");
         System.out.println("1.view related courses to tle");
         System.out.println("2.view related courses to mapeh");
-        System.out.println("3.viewlated courses to ict");
+        System.out.println("3.view related courses to ict");
         System.out.println("4.view related courses to math");
         System.out.println("5.view related courses to linguistics");
         System.out.println("6.view related courses to science");
