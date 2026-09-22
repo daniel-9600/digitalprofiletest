@@ -1,5 +1,5 @@
 package com.example.myapplication.quarter2.minipeta3;
-
+import org.junit.Test;
 import java.util.Scanner;
 public class possibleCoursesFeature {
 
@@ -55,7 +55,7 @@ public class possibleCoursesFeature {
                     choice++;
                     break;
 
-            }
+            } choosing = false;
         }
     }
 }
