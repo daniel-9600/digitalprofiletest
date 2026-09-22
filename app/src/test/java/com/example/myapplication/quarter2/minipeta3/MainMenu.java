@@ -21,8 +21,9 @@ public class MainMenu {
             } else if (choice == 2) {
                 System.out.println("Checking possible courses...");
                 System.out.println("=========================");
-                PossibleCoursesFeature possibleCoursesFeature = new PossibleCoursesFeature();
-                PossibleCoursesFeature.execute(scanner);
+                possibleCoursesFeature possibleCoursesFeature = new possibleCoursesFeature();
+                possibleCoursesFeature.execute(scanner);
+
             } else if (choice == 3) {
                 System.out.println("Checking past scores if you have any...");
                 System.out.println("=========================");

@@ -8,19 +8,24 @@ public class SurveyFeature {
 
     public static void execute(Scanner scanner) {
         System.out.println("===WELCOME TO THE EXAMPLE SEGMENT===");
-        int choice = 1;
+        System.out.println("Do you (example question)?");
+        int choice = scanner.nextInt();
         boolean Choosing = true;
-
-        while (Choosing) {
+        do {
             switch (choice) {
                 case 1:
                     System.out.println("Answered Yes");
+                    System.out.println("==============");
                     choice++;
-                     break;
+                    break;
                 case 2:
                     System.out.println("Answered No");
+                    System.out.println("==============");
                     break;
-            } Choosing = false;
+            }
+        }
+        while (choice == 3); {
+            Choosing = false;
         }
     }
 }
