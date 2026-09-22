@@ -3,7 +3,7 @@ import org.junit.Test;
 import java.util.Scanner;
 
 public class PostSurveyFeature {
-  public void start(Scanner scanner) {
+  public static void execute(Scanner scanner) {
     int Scores = 50;
     boolean isRunning = true;
 
@@ -12,7 +12,8 @@ public class PostSurveyFeature {
       System.out.println("=======");
       System.out.println("Top 3 Subjects are example, example, example");
       System.out.println("Saving Scores");
-      System.out.println("Display the possible outcomes Careers,Pathways,Jobs");
+      System.out.println("Scores are = " + Scores);
+      System.out.println("Displaying possible outcomes Careers,Pathways,Jobs");
       System.out.println("=======");
       System.out.println("============");
       isRunning = false;

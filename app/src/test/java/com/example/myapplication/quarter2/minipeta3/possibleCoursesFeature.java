@@ -6,7 +6,7 @@ public class possibleCoursesFeature {
     public static void execute(Scanner scanner) {
         int choice = 0;
         boolean choosing = true;
-        System.out.println("===============================");
+        System.out.println("Possible Courses are = ");
         System.out.println("1.view related courses to tle");
         System.out.println("2.view related courses to mapeh");
         System.out.println("3.viewlated courses to ict");
