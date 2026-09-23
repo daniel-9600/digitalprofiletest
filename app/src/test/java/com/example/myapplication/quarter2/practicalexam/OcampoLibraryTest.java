@@ -20,7 +20,7 @@ public class OcampoLibraryTest {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        LibraryMenu librarySystem = new LibraryMenu();
+        OcampoLibraryMenu librarySystem = new OcampoLibraryMenu();
         librarySystem.start(scanner);
     }
 }
