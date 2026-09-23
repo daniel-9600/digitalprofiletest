@@ -1,6 +1,8 @@
 package com.example.myapplication.quarter2.minipeta3;
 import java.util.Scanner;
+import org.junit.Test;
 public class MainMenu {
+    @Test
 
     public void start(Scanner scanner) {
         System.out.println("=========================");
