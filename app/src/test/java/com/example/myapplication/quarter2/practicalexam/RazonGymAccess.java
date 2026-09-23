@@ -1,10 +1,12 @@
 package com.example.myapplication.quarter2.practicalexam;
 import java.util.Scanner;
 import org.junit.Test;
+import java.io.ByteArrayInputStream;
 
 public class RazonGymAccess {
+
     @Test
-    public void AtGym(Scanner scanner) {
+    public void AtGym() {
         StringBuilder automatedInput = new StringBuilder();
         System.out.println("===================================================");
         System.out.println("RAZON'S GYM, DO YOU HAVE WHAT IT TAKES?");
@@ -14,8 +16,8 @@ public class RazonGymAccess {
         int paymentchoice;
         int funds;
         while (TheMenu) {
-            paymentchoice = scanner.nextInt();
-            funds = scanner.nextInt();
+            paymentchoice = gyminput.nextInt();
+            funds = gyminput.nextInt();
             if (paymentchoice == 1) {
                 automatedInput.append("1\n");
                 System.out.println("YES.");
@@ -43,6 +45,11 @@ public class RazonGymAccess {
                 System.out.println("===================================================");
             }
 
+            System.out.println("(TESTING START!)");
+            ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
+            Scanner scanner = new Scanner(inputStream);
+            RazonGymAccess gymSystem = new RazonGymAccess();
+            gymSystem.start(gyminput);
         }
     }
 }
