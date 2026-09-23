@@ -17,5 +17,7 @@ public class RazonGymAccess {
             if (paymentchoice == 1) {
                 System.out.println("SEEMS LIKE YOU'RE NOT A WUSS!");
                 System.out.println("THE MEMBERSHIP IS $15 PER MONTH");
+            }
+        }
     }
 }
