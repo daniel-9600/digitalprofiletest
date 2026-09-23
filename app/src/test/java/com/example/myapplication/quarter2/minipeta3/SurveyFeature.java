@@ -15,17 +15,17 @@ public class SurveyFeature {
             switch (choice) {
                 case 1:
                     System.out.println("Answered Yes");
-                    System.out.println("==============");
                     choice++;
                     break;
                 case 2:
                     System.out.println("Answered No");
-                    System.out.println("==============");
+                    System.out.println("=========================");
                     break;
             }
         }
         while (choice == 3); {
             Choosing = false;
+
         }
     }
 }
