@@ -5,7 +5,7 @@ public class tamayoprofile {
     @Test
     public void printMyprofile(){
         // --- 1. THE INPUT (Storing your personal details in variables) ---
-        String myName = "Paul";
+        String myName = "Mon";
         String petName = "czarina";
         String favFood = "Sinigang";
         int myAge = 16;
