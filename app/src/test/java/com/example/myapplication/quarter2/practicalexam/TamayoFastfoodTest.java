@@ -1,8 +1,8 @@
 package com.example.myapplication.quarter2.practicalexam;
- import org.junit.Test;
- import java.io.ByteArrayInputStream;
- import java.util.Scanner;
- public class TamayoFastfoodTest {
+import org.junit.Test;
+import java.io.ByteArrayInputStream;
+import java.util.Scanner;
+public class TamayoFastfoodTest {
     @Test
     public void testFastFoodFlow() {
         StringBuilder automatedInput = new StringBuilder();
@@ -19,8 +19,9 @@ package com.example.myapplication.quarter2.practicalexam;
         automatedInput.append("3\n"); // Choose Exit
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
-        {
-            Scanner scanner = new Scanner(inputStream);
-        }
+        Scanner scanner = new Scanner(inputStream);
+        TamayoFastfoodMenu fastFoodSystem = new TamayoFastfoodMenu ();
+        TamayoFastfoodMenu.start(scanner);
     }
-    }
+            }
+
