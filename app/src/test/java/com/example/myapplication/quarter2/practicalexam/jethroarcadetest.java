@@ -20,7 +20,7 @@ public class jethroarcadetest {
         System.out.println("--- TEST DATA GENERATION COMPLETE ---\n");
         ByteArrayInputStream inputStream = new ByteArrayInputStream(automatedInput.toString().getBytes());
         Scanner scanner = new Scanner(inputStream);
-        jethropremiumresort arcadeSystem = new jethropremiumresort();
+        jethroarcade arcadeSystem = new jethroarcade();
         arcadeSystem.start(scanner);
     }
 }

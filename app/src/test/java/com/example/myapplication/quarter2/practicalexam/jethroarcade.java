@@ -13,7 +13,8 @@ public class jethroarcade {
         if (choice == 1); {
             System.out.println("you have bought 20 tokens, please enjoy!");
         }
-        else if (choice == 2) {System.out.println("you have claimed your prize!");
-        }
+        if (choice == 2) System.out.println("you have claimed your prize!");
+
+        if (choice == 2) System.out.println("you have claimed your prize!");
     }
 }
