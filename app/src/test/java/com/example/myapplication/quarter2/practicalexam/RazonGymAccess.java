@@ -39,10 +39,8 @@ public class RazonGymAccess {
                     System.out.println("UHH..");
                     System.out.println("(YOU GOT SCARED AND RAN AWAY.)");
                     System.out.println("===================================================");
-                    TheMenu = false;
-
-            }
+            } TheMenu = false;
         }
     }
 }
-//Commit #2, Commit #3.
+//Commit #2, Commit #3, Commit #5
