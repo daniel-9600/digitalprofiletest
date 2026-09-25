@@ -13,7 +13,7 @@ public class PostSurveyFeature {
       System.out.println("Top 3 Subjects are example, example, example");
       System.out.println("Saving Scores");
       System.out.println("Scores are = " + Scores);
-      System.out.println("Displaying possible outcomes Careers,Pathways,Jobs");
+      System.out.println("Displaying Possible Outcomes Careers,Pathways,Jobs");
       System.out.println("=======");
       System.out.println("============");
       isRunning = false;
