@@ -15,6 +15,6 @@ public class jethroarcade {
         }
         if (choice == 2) System.out.println("you have claimed your prize!");
 
-        if (choice == 2) System.out.println("you have claimed your prize!");
+        if (choice == 3) System.out.println("exit");
     }
 }

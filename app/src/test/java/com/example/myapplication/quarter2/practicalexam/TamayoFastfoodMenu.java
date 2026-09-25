@@ -21,15 +21,15 @@ public class TamayoFastfoodMenu {
                 System.out.println("Ordered Burger as Combo");
             } if (adding == 1) {
                 System.out.println("Ordered Burger as Solo");
-                System.out.println("==================");
+                System.out.println("===================");
             } if (choice3 == 1) {
                 System.out.println("Ordered Fries");
 
             }  if (choice4 == 2) {
-                System.out.println("==================");
+                System.out.println("===================");
                 System.out.println("Succesfully ordered your food");
                 System.out.println("Choose exit");
-                System.out.println("==================");
+                System.out.println("===================");
                 System.out.println("exiting");
 
                 MenuLoop = false;
