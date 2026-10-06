@@ -1,4 +1,4 @@
-package com.example.myapplication.quarter2.minipeta2;
+package com.example.myapplication.quarter2;
 
 import org.junit.Test;
 public class tamayoprofile {
