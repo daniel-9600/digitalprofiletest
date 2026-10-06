@@ -15,7 +15,7 @@ public class PostSurveyFeature {
             System.out.println("Display the possible outcomes Careers,Pathways,Jobs");
             System.out.println("=======");
             System.out.println("============");
-
+            isRunning = false;
             // OPTION 1: WOULD YOU LIKE YOUR SCORES MADE IN PUBLIC?
         }
     }
