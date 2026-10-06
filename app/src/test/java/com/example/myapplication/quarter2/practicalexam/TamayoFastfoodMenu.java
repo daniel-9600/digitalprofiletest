@@ -6,7 +6,7 @@ public class TamayoFastfoodMenu {
         System.out.println("====================");
         System.out.println("Start Taking Order?");
         System.out.println("Start Ordering your meal");
-        System.out.println("==================");
+        System.out.println("====================");
         int picking;
         int adding;
         int choice3;
