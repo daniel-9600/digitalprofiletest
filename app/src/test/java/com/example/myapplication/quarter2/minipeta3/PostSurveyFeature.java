@@ -8,8 +8,8 @@ public class PostSurveyFeature {
     boolean isRunning = true;
 
     while (isRunning) {
-      System.out.println("===============");
-      System.out.println("========");
+      System.out.println("================");
+      System.out.println("==========");
       System.out.println("Top 3 Subjects are example, example, example");
       System.out.println("Saving Scores");
       System.out.println("Scores are = " + Scores);

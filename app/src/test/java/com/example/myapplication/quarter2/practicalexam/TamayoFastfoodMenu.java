@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class TamayoFastfoodMenu {
     public static void start(Scanner scanner) {
-        System.out.println("===================");
+        System.out.println("====================");
         System.out.println("Start Taking Order?");
         System.out.println("Start Ordering your meal");
-        System.out.println("==================");
+        System.out.println("====================");
         int picking;
         int adding;
         int choice3;
@@ -21,7 +21,7 @@ public class TamayoFastfoodMenu {
                 System.out.println("Ordered Burger as Combo");
             } if (adding == 1) {
                 System.out.println("Ordered Burger as Solo");
-                System.out.println("===================");
+                System.out.println("====================");
             } if (choice3 == 1) {
                 System.out.println("Ordered Fries");
 
