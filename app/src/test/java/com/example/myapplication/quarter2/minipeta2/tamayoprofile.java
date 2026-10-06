@@ -1,13 +1,13 @@
-package com.example.myapplication.quarter2.minipeta2;
+package com.example.myapplication.quarter2;
 
 import org.junit.Test;
 public class tamayoprofile {
     @Test
     public void printMyprofile(){
         // --- 1. THE INPUT (Storing your personal details in variables) ---
-        String myName = "Mon";
-        String petName = "czarinaa";
-        String favFood = "Sinigang";
+        String myName = "Paul";
+        String petName = "jaja";
+        String favFood = "Adobo";
         int myAge = 16;
 
         // --- 2. THE OUTPUT (Printing to the console) ---
