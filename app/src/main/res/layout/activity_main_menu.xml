@@ -25,7 +25,7 @@
         android:id="@+id/imageView10"
         android:layout_width="259dp"
         android:layout_height="213dp"
-        app:srcCompat="@drawable/mainmenu_button1_removebg_preview"
+        app:srcCompat="@drawable/uielement2_mainmenu"
         tools:layout_editor_absoluteX="144dp"
         tools:layout_editor_absoluteY="93dp"
         tools:ignore="MissingConstraints" />
@@ -36,7 +36,7 @@
         android:layout_height="732dp"
         android:scaleX="1"
         android:scaleY="1.15"
-        app:srcCompat="@drawable/main_menu_screen__4__removebg_preview"
+        app:srcCompat="@drawable/uielement1_mainmenu"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-143dp"
         tools:ignore="MissingConstraints" />

@@ -13,7 +13,7 @@
         android:layout_height="735dp"
         android:scaleX="3"
         android:scaleY="3.7"
-        app:srcCompat="@drawable/hand_drawn_math_symbols_icon_in_flat_style_mathematics_formula_illustration_on_isolated_background_school_education_sign_business_concept_vector"
+        app:srcCompat="@drawable/background1_survey"
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="-2dp"
         tools:ignore="MissingConstraints" />
