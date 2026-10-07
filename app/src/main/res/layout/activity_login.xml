@@ -5,6 +5,75 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    android:backgroundTintMode="add"
+    android:visibility="visible"
+    tools:context=".Login"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:contentDescription="concern asking if someone needs help"
+        android:text="NEED HELP?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:text="NEED HELP?" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#F44336"
+        android:text="Sign up with G-mail"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#828FE9"
+        android:text="Sign up with Google"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="374dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#17215F"
+        android:text="SIgn up with mobile number"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="#0D79D5"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="495dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="336dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#4B3737"
+        android:ems="10"
+        android:inputType="text"
+        android:text="LETS US HELP!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#E9DD84"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
