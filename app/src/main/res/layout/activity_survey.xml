@@ -7,4 +7,78 @@
     android:layout_height="match_parent"
     tools:context=".Survey">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="735dp"
+        android:scaleX="3"
+        android:scaleY="3.7"
+        app:srcCompat="@drawable/hand_drawn_math_symbols_icon_in_flat_style_mathematics_formula_illustration_on_isolated_background_school_education_sign_business_concept_vector"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="352dp"
+        android:layout_height="453dp"
+        android:background="#07BE5E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="156dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#344B40"
+        android:text="Yes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="121dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#344B40"
+        android:text="No"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColorLink="#344B40"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="353dp"
+        android:layout_height="124dp"
+        android:text="Do you enjoy the process of thinking of solutions?"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="259dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="353dp"
+        android:layout_height="88dp"
+        android:text="QUESTION #1"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
