@@ -89,7 +89,8 @@
         android:layout_height="618dp"
         android:src="@drawable/naligo_ka_na_ba"
         tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="119dp" />
+        tools:layout_editor_absoluteY="119dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button6"
@@ -98,7 +99,8 @@
         android:text="Button"
         android:visibility="invisible"
         tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="314dp" />
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
