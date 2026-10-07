@@ -18,7 +18,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background_mainmenu"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -26,7 +27,8 @@
         android:layout_height="213dp"
         app:srcCompat="@drawable/mainmenu_button1_removebg_preview"
         tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="93dp" />
+        tools:layout_editor_absoluteY="93dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -36,6 +38,82 @@
         android:scaleY="1.15"
         app:srcCompat="@drawable/main_menu_screen__4__removebg_preview"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-143dp" />
+        tools:layout_editor_absoluteY="-143dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="68dp"
+        android:layout_height="80dp"
+        android:text="POSSIBLE COURSES"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="631dp"
+        tools:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="66dp"
+        android:layout_height="87dp"
+        android:text="ABOUT US"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="628dp"
+        tools:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="228dp"
+        tools:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="99dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:text=".@gmail"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME,"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.55"
+        android:scaleY="0.75"
+        android:text="EXAMPLEUSER!"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
