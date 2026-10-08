@@ -18,17 +18,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background_mainmenu"
-        tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="259dp"
         android:layout_height="213dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/uielement2_mainmenu"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="93dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="93dp" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -36,54 +37,66 @@
         android:layout_height="732dp"
         android:scaleX="1"
         android:scaleY="1.15"
+        android:translationX="0px"
+        android:translationY="-373px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/uielement1_mainmenu"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-143dp"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="68dp"
         android:layout_height="80dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginBottom="20dp"
         android:text="POSSIBLE COURSES"
         android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="631dp"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="66dp"
         android:layout_height="87dp"
+        android:layout_marginBottom="16dp"
         android:text="ABOUT US"
         android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="628dp"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
         android:text="NO"
         android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="277dp"
-        tools:layout_editor_absoluteY="228dp"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
         android:text="YES"
         android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="228dp"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:visibility="invisible" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"

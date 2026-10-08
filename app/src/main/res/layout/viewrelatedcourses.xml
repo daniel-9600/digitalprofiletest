@@ -55,13 +55,24 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="409dp"
-        android:layout_height="254dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:alpha="0.3"
-        android:scaleX="1.7"
-        android:src="@drawable/memakingpoop"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:layerType="none"
+        android:src="@drawable/me_making_chocolate"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.455" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="426dp"
+        android:layout_height="375dp"
+        android:alpha="0.3"
+        android:src="@drawable/asiandudestudyingloremipsum"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="405dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -72,7 +83,7 @@
         android:textColor="#000000"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="-10dp" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -87,10 +98,11 @@
         android:id="@+id/imageView8"
         android:layout_width="306dp"
         android:layout_height="618dp"
+        android:alpha="0.8"
         android:src="@drawable/naligo_ka_na_ba"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="119dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp" />
 
     <Button
         android:id="@+id/button6"
@@ -109,6 +121,6 @@
         android:text="Button"
         android:visibility="invisible"
         tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="235dp" />
+        tools:layout_editor_absoluteY="229dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
