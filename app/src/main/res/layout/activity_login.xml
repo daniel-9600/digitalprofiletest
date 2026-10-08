@@ -10,70 +10,105 @@
     tools:context=".Login"
     tools:visibility="visible">
 
-    <TextView
-        android:id="@+id/textView3"
+    <ImageView
+        android:id="@+id/imageView23"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:contentDescription="concern asking if someone needs help"
-        android:text="NEED HELP?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="47dp"
-        tools:text="NEED HELP?" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/high_school_graduates_students_tossing_up_hats_over_blue_sky_57801279"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cong"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-215dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="584dp"
+        android:layout_height="906dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/images__1_"
+        tools:layout_editor_absoluteX="-54dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="362dp"
+        android:layout_height="272dp"
+        app:srcCompat="@drawable/horizontal_rectangle_black"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="258dp" />
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="380dp"
-        android:layout_height="54dp"
-        android:backgroundTint="#F44336"
-        android:text="Sign up with G-mail"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:id="@+id/button5"
+        android:layout_width="320dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#1268AB"
+        android:text="Sign up with Facebook"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="287dp" />
 
     <Button
-        android:id="@+id/button10"
-        android:layout_width="380dp"
-        android:layout_height="55dp"
-        android:backgroundTint="#828FE9"
+        android:id="@+id/button15"
+        android:layout_width="323dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#C75050"
         android:text="Sign up with Google"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="354dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="342dp" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="374dp"
-        android:layout_height="61dp"
-        android:backgroundTint="#17215F"
-        android:text="SIgn up with mobile number"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="423dp" />
+        android:id="@+id/button16"
+        android:layout_width="322dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#68BBE0"
+        android:text="Sign up with Phone number"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="407dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already have an account?"
-        android:textColor="#0D79D5"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="495dp"
-        tools:ignore="MissingConstraints" />
+        android:textColor="#5F6EDB"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="482dp" />
 
-    <EditText
-        android:id="@+id/editTextText7"
-        android:layout_width="336dp"
-        android:layout_height="71dp"
-        android:backgroundTint="#4B3737"
-        android:ems="10"
-        android:inputType="text"
-        android:text="LETS US HELP!!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#E9DD84"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="138dp"
-        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/facebook_logo__square_"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="42dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/images__3_"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/pngtree_calling_telephone_glyph_icon_vector_png_image_5199516_removebg_preview"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="414dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
