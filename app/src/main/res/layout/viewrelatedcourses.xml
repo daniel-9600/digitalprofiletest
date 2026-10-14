@@ -11,47 +11,56 @@
         android:id="@+id/button10"
         android:layout_width="79dp"
         android:layout_height="79dp"
+        android:layout_marginTop="20dp"
         android:text="Button"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="658dp" />
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="252dp" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="79dp"
         android:layout_height="79dp"
         android:text="Button"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="573dp" />
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintTop_toTopOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.927"
+        tools:layout_editor_absoluteX="252dp" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="79dp"
         android:layout_height="79dp"
         android:text="Button"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="484dp" />
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.887"
+        tools:layout_editor_absoluteX="252dp" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="79dp"
         android:layout_height="79dp"
         android:text="Button"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="405dp" />
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.28"
+        tools:layout_editor_absoluteX="252dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="426dp"
         android:layout_height="281dp"
+        android:layout_marginBottom="343dp"
         android:alpha="0.4"
         android:src="@drawable/office_slave"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="-14dp"
-        tools:layout_editor_absoluteY="-19dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-11dp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -63,16 +72,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.455" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="426dp"
-        android:layout_height="375dp"
-        android:alpha="0.3"
-        android:src="@drawable/asiandudestudyingloremipsum"
-        tools:layout_editor_absoluteX="-8dp"
-        tools:layout_editor_absoluteY="405dp" />
+        app:layout_constraintVertical_bias="0.663" />
 
     <TextView
         android:id="@+id/textView4"
@@ -82,22 +82,28 @@
         android:text="view possible related courses"
         android:textColor="#000000"
         android:textSize="48sp"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="-10dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        tools:layout_editor_absoluteX="52dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:alpha="0.4"
-        android:src="@drawable/student"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="442dp" />
+        android:layout_marginTop="424dp"
+        android:alpha="0.3"
+        android:src="@drawable/asiandudestudyingloremipsum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="306dp"
         android:layout_height="618dp"
+        android:layout_marginBottom="36dp"
         android:alpha="0.8"
         android:src="@drawable/naligo_ka_na_ba"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -108,11 +114,14 @@
         android:id="@+id/button6"
         android:layout_width="79dp"
         android:layout_height="79dp"
+        android:layout_marginBottom="20dp"
         android:text="Button"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="314dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="252dp" />
 
     <Button
         android:id="@+id/button4"
@@ -120,7 +129,9 @@
         android:layout_height="70dp"
         android:text="Button"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.215"
+        tools:layout_editor_absoluteX="260dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
