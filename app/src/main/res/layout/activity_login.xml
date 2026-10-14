@@ -12,62 +12,76 @@
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/high_school_graduates_students_tossing_up_hats_over_blue_sky_57801279"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:layout_width="708dp"
+        android:layout_height="327dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/high_school_graduates_students_tossing_up_hats_over_blue_sky_57801279" />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/images"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="44dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
 
     <ImageView
         android:id="@+id/imageView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/cong"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-215dp" />
-
-    <ImageView
-        android:id="@+id/imageView30"
-        android:layout_width="584dp"
-        android:layout_height="906dp"
-        android:alpha="0.5"
-        app:srcCompat="@drawable/images__1_"
-        tools:layout_editor_absoluteX="-54dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        android:layout_width="1274dp"
+        android:layout_height="346dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cong" />
 
     <ImageView
         android:id="@+id/imageView31"
-        android:layout_width="362dp"
-        android:layout_height="272dp"
-        app:srcCompat="@drawable/horizontal_rectangle_black"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="258dp" />
+        android:layout_width="351dp"
+        android:layout_height="273dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/horizontal_rectangle_black" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="320dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:backgroundTint="#1268AB"
         android:text="Sign up with Facebook"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="287dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="323dp"
-        android:layout_height="51dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
         android:backgroundTint="#C75050"
         android:text="Sign up with Google"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.782"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
 
     <Button
         android:id="@+id/button16"
@@ -75,40 +89,58 @@
         android:layout_height="48dp"
         android:backgroundTint="#68BBE0"
         android:text="Sign up with Phone number"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="407dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="33dp"
         android:text="Already have an account?"
         android:textColor="#5F6EDB"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="482dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622" />
 
     <ImageView
         android:id="@+id/imageView32"
-        android:layout_width="38dp"
-        android:layout_height="32dp"
-        app:srcCompat="@drawable/facebook_logo__square_"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="294dp" />
+        android:layout_width="37dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382"
+        app:srcCompat="@drawable/facebook_logo__square_" />
 
     <ImageView
         android:id="@+id/imageView33"
-        android:layout_width="42dp"
-        android:layout_height="34dp"
-        app:srcCompat="@drawable/images__3_"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="350dp" />
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468"
+        app:srcCompat="@drawable/images__3_" />
 
     <ImageView
         android:id="@+id/imageView34"
         android:layout_width="40dp"
         android:layout_height="34dp"
-        app:srcCompat="@drawable/pngtree_calling_telephone_glyph_icon_vector_png_image_5199516_removebg_preview"
-        tools:layout_editor_absoluteX="334dp"
-        tools:layout_editor_absoluteY="414dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.829"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        app:srcCompat="@drawable/pngtree_calling_telephone_glyph_icon_vector_png_image_5199516_removebg_preview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
