@@ -12,50 +12,42 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="77dp"
-        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
         android:ems="10"
         android:inputType="text"
         android:text="Sign up"
+        android:textColor="#58b8E6"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.903" />
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="158dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="236dp"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="192dp"
         android:ems="10"
         android:inputType="text"
         android:text="Forgot passsword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
-        android:text="Sign in"
+        android:textColor="#58B8E6"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582" />
+        app:layout_constraintVertical_bias="0.904" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
+        android:text="G-mail"
         android:layout_width="369dp"
-        android:layout_height="55dp"
+        android:layout_height="45dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="text|textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.412"
@@ -67,6 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
@@ -81,22 +74,22 @@
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.418"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.403" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="G-mail"
+        android:layout_width="78dp"
+        android:layout_height="34dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.407" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -104,26 +97,38 @@
         android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.635"
+        app:layout_constraintVertical_bias="0.632"
         app:srcCompat="@drawable/images__5_" />
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/black_border"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-34dp" />
+
 
     <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/black_border"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="818dp" />
+        android:layout_height="259dp"
+        android:id="@+id/imageView15"
+        android:layout_width="286dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
+         app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"
+        app:srcCompat="@drawable/images_removebg_preview" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#161414"
+        android:text="Sign up"
+         android:textColor="#E9DFDF"
+       app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toStartOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
