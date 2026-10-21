@@ -21,10 +21,28 @@
         app:srcCompat="@drawable/background1_survey"
         tools:ignore="MissingConstraints" />
 
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar2"
+        android:layout_width="392dp"
+        android:layout_height="499dp"
+        android:background="#035F2E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.496"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/materialToolbar"
-        android:layout_width="352dp"
-        android:layout_height="453dp"
+        android:layout_width="363dp"
+        android:layout_height="462dp"
         android:background="#07BE5E"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
