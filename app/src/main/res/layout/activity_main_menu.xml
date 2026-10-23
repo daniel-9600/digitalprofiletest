@@ -28,7 +28,7 @@
         android:id="@+id/imageView10"
         android:layout_width="259dp"
         android:layout_height="213dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="12dp"
         android:contentDescription="TODO"
         android:importantForAccessibility="no"
         app:layout_constraintEnd_toEndOf="parent"
