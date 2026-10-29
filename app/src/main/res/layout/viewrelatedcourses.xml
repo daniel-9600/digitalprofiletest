@@ -68,7 +68,7 @@
         android:src="@drawable/naligo_ka_na_ba"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/bottomimg"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="@+id/bottomimg"
         tools:ignore="MissingConstraints" />
 
@@ -76,26 +76,40 @@
         android:id="@+id/apbutton"
         android:layout_width="79dp"
         android:layout_height="79dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:text="Button"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/middleimg" />
 
     <Button
-        android:id="@+id/linguisticsbutton"
+        android:id="@+id/mainMenuButton"
+        android:layout_width="99dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#8C8C8C"
+        android:text="Return to Main Menu"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <Button
+        android:id="@+id/apbutton3"
         android:layout_width="79dp"
         android:layout_height="79dp"
-        android:text="Button"
+        android:text="Return to Main Menu"
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/apbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintHorizontal_bias="0.921"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mapehbutton"
-        app:layout_constraintVertical_bias="0.971" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/mathbutton"
@@ -103,12 +117,12 @@
         android:layout_height="79dp"
         android:text="Button"
         android:visibility="invisible"
-        app:layout_constraintBottom_toTopOf="@+id/linguisticsbutton"
+        app:layout_constraintBottom_toTopOf="@+id/mainMenuButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mapehbutton"
-        app:layout_constraintVertical_bias="0.94" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/mapehbutton"
@@ -118,10 +132,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/apbutton"
         app:layout_constraintEnd_toEndOf="@+id/middleimg"
-        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tlebutton"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintVertical_bias="0.275" />
 
     <Button
         android:id="@+id/ictbutton"
@@ -132,7 +146,7 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/mapehbutton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.762"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mainUI"
         app:layout_constraintVertical_bias="1.0"
@@ -146,9 +160,9 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@+id/mainUI"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.893"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mainUI"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.211" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
