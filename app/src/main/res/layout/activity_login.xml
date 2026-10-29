@@ -49,7 +49,7 @@
         app:srcCompat="@drawable/images_removebg_preview" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/signUpButton"
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:backgroundTint="#161414"

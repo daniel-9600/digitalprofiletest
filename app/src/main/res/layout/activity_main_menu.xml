@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background_mainmenu"
         tools:ignore="ContentDescription,HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="-1dp" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -46,7 +46,7 @@
         android:translationY="-373px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -54,91 +54,114 @@
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/possibleCoursesButton"
         android:layout_width="68dp"
         android:layout_height="80dp"
         android:layout_marginTop="631dp"
         android:text="POSSIBLE COURSES"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView6"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
         tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="66dp"
         android:layout_height="87dp"
-        android:layout_marginBottom="16dp"
         android:text="ABOUT US"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.965"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="333dp"
         tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="135dp"
         android:text="NO"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.326"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="277dp"
         tools:visibility="invisible" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/startSurveyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="135dp"
+        android:background="#524F4F"
+        android:backgroundTint="#545454"
+        android:drawableTint="#545454"
         android:text="YES"
-        android:visibility="invisible"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        app:strokeColor="#4B4242"
         tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteX="180dp"
         tools:visibility="invisible" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="99dp"
         android:layout_height="41dp"
-        android:layout_marginEnd="78dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:scaleX="1"
         android:scaleY="1"
         android:text=".@gmail"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="WELCOME,"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="86dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="45dp"
+        android:layout_height="19dp"
         android:scaleX="0.55"
         android:scaleY="0.75"
         android:text="EXAMPLEUSER!"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="0.008"
         tools:ignore="HardcodedText,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

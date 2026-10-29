@@ -25,9 +25,8 @@ public class Login extends AppCompatActivity {
             return insets;
 
         });
-        Button signUp;
 
-        signUp = (Button) findViewById(R.id.button);
+        Button signUp = (Button) findViewById(R.id.signUpButton);
 
         signUp.setOnClickListener(new View.OnClickListener() {
             // this method will make the signUp button switch to the mainMenu when pressed.
