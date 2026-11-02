@@ -64,6 +64,9 @@ public class Survey extends AppCompatActivity {
                         questionNumberText.setText("QUESTION #5");
                         questionBodyText.setText("Do you like adding or subtracting random numbers you see?");
                         break;
+                    case 5:
+                        Intent moveToPostSurvey = new Intent(Survey.this, PostSurvey.class);
+                        startActivity(moveToPostSurvey);
                 }
             }
         });
