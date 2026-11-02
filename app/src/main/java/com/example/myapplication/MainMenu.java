@@ -23,10 +23,12 @@ public class MainMenu extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button startSurvey = (Button) findViewById(R.id.startSurveyButton);
+
+
+        Button startSurveyButton = (Button) findViewById(R.id.startSurveyButton);
         // startSurveyButton object to be used
 
-        startSurvey.setOnClickListener(new View.OnClickListener() {
+        startSurveyButton.setOnClickListener(new View.OnClickListener() {
             // this method will make the startSurveyButton switch to the survey screen when pressed.
             @Override
             public void onClick(View view) {
@@ -35,9 +37,9 @@ public class MainMenu extends AppCompatActivity {
                 }
             }
         });
-        Button possibleCourses = (Button) findViewById(R.id.possibleCoursesButton);
+        Button possibleCoursesButton = (Button) findViewById(R.id.possibleCoursesButton);
         // possibleCoursesButton object to be used
-        possibleCourses.setOnClickListener(new View.OnClickListener() {
+        possibleCoursesButton.setOnClickListener(new View.OnClickListener() {
             // same thing, possible courses button switches to possible courses screen when pressed.
             @Override
             public void onClick(View view) {
