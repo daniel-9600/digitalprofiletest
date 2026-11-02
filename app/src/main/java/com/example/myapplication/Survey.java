@@ -48,7 +48,7 @@ public class Survey extends AppCompatActivity {
             public void onClick(View view) {
                 questionNumber[0]++;
                 switch (questionNumber[0]) {
-                    // questionNumber[0] displays question #1
+                    // questionNumber[0] starts at 0 and displays question #1
                     case 1:
                         questionNumberText.setText("QUESTION #2");
                         questionBodyText.setText("Are you a fan of numbers?");
