@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class viewRelatedCourses extends AppCompatActivity {
+public class ViewRelatedCourses extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class viewRelatedCourses extends AppCompatActivity {
             // makes the return to main menu button switch the screen to the main menu
             @Override
             public void onClick(View view) {
-                Intent moveToMainMenu = new Intent(viewRelatedCourses.this, MainMenu.class);
+                Intent moveToMainMenu = new Intent(ViewRelatedCourses.this, MainMenu.class);
                 startActivity(moveToMainMenu);
             }
         });

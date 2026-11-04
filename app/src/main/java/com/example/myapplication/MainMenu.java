@@ -43,7 +43,7 @@ public class MainMenu extends AppCompatActivity {
             // same thing, possible courses button switches to possible courses screen when pressed.
             @Override
             public void onClick(View view) {
-                Intent moveToPossibleCourses = new Intent(MainMenu.this, viewRelatedCourses.class); {
+                Intent moveToPossibleCourses = new Intent(MainMenu.this, ViewRelatedCourses.class); {
                     startActivity(moveToPossibleCourses);
                 }
             }
