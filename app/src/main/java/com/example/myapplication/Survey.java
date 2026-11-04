@@ -40,7 +40,8 @@ public class Survey extends AppCompatActivity {
         });
         answerYesButton.setOnClickListener(new View.OnClickListener() {
             /* this method will display each question by changing the textview
-            once questionNumber reaches 5, move to post survey screen
+            after each button press, questionNumber[0] increments by 1
+            once questionNumber[0] reaches 5, move to post survey screen
              */
             TextView questionNumberText = (TextView) findViewById(R.id.questionNumber);
             TextView questionBodyText = (TextView) findViewById(R.id.questionBody);
@@ -73,7 +74,8 @@ public class Survey extends AppCompatActivity {
         });
         answerNoButton.setOnClickListener(new View.OnClickListener() {
             /* this method will display each question by changing the textview
-            once questionNumber reaches 5, move to post survey screen
+            after each button press, questionNumber[0]
+            once questionNumber[0] reaches 5, move to post survey screen
              */
             TextView questionNumberText = (TextView) findViewById(R.id.questionNumber);
             TextView questionBodyText = (TextView) findViewById(R.id.questionBody);
