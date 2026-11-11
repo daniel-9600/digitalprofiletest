@@ -42,13 +42,20 @@ public class Survey extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 changeQuestion();
+                if (questionNumber[0] == 5) {
+                    Intent moveToPostSurvey = new Intent(Survey.this, PostSurvey.class);
+                    startActivity(moveToPostSurvey);
+                }
             }
         });
         answerNoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 changeQuestion();
-
+                if (questionNumber[0] == 5) {
+                        Intent moveToPostSurvey = new Intent(Survey.this, PostSurvey.class);
+                        startActivity(moveToPostSurvey);
+                }
             }
         });
     }
@@ -78,10 +85,6 @@ public class Survey extends AppCompatActivity {
             case 4:
                 questionNumberText.setText("QUESTION #5");
                 questionBodyText.setText("Do you like adding or subtracting random numbers you see?");
-                break;
-            case 5:
-                Intent moveToPostSurvey = new Intent(Survey.this, PostSurvey.class);
-                startActivity(moveToPostSurvey);
                 break;
         }
     }
