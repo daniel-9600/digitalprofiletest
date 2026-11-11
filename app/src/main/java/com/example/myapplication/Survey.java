@@ -48,6 +48,7 @@ public class Survey extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 changeQuestion();
+
             }
         });
     }
@@ -81,6 +82,7 @@ public class Survey extends AppCompatActivity {
             case 5:
                 Intent moveToPostSurvey = new Intent(Survey.this, PostSurvey.class);
                 startActivity(moveToPostSurvey);
+                break;
         }
     }
 }
