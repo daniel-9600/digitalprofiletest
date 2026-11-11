@@ -54,7 +54,7 @@
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/possibleCoursesButton"
         android:layout_width="68dp"
         android:layout_height="80dp"
         android:layout_marginTop="631dp"
@@ -92,7 +92,7 @@
         tools:visibility="invisible" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/startSurveyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="135dp"
