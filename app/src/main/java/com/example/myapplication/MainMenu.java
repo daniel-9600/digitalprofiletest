@@ -25,7 +25,7 @@ public class MainMenu extends AppCompatActivity {
         });
 
 
-        Button startSurveyButton = (Button) findViewById(R.id.startSurveyButton);
+        Button startSurveyButton = (Button) findViewById(R.id.startSurveyButtonYes);
         // startSurveyButton object to be used
 
         startSurveyButton.setOnClickListener(new View.OnClickListener() {

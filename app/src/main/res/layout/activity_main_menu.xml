@@ -9,41 +9,12 @@
     tools:context=".MainMenu"
     tools:visibility="visible">
 
-
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleY="1.6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454"
-        app:srcCompat="@drawable/background_mainmenu" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="464dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/uielement1_mainmenu" />
-
     <Button
         android:id="@+id/possibleCoursesButton"
-        android:layout_width="68dp"
-        android:layout_height="80dp"
+        android:layout_width="75dp"
+        android:layout_height="119dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="795dp"
+        android:layout_marginTop="765dp"
         android:layout_marginEnd="327dp"
         android:layout_marginBottom="16dp"
         android:text="POSSIBLE COURSES"
@@ -57,8 +28,36 @@
         tools:ignore="HardcodedText,MissingConstraints"
         tools:visibility="visible" />
 
+
+    <ImageView
+        android:id="@+id/MainMenu_backgroundimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleY="1.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454"
+        app:srcCompat="@drawable/background_mainmenu" />
+
+    <ImageView
+        android:id="@+id/MainMenu_foregroundUI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/uielement1_mainmenu" />
+
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/AboutUsButton"
         android:layout_width="66dp"
         android:layout_height="87dp"
         android:layout_marginStart="333dp"
@@ -80,8 +79,8 @@
         android:layout_height="41dp"
         android:layout_marginStart="216dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="818dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="775dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:scaleX="1"
@@ -100,7 +99,7 @@
         android:layout_marginStart="216dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="126dp"
-        android:layout_marginBottom="859dp"
+        android:layout_marginBottom="800dp"
         android:text="WELCOME,"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,7 +114,7 @@
         android:layout_marginStart="277dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="48dp"
-        android:layout_marginBottom="859dp"
+        android:layout_marginBottom="800dp"
         android:scaleX="0.55"
         android:scaleY="0.75"
         android:text="EXAMPLEUSER!"
@@ -126,7 +125,7 @@
         tools:ignore="HardcodedText,TextSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/MainMenu_SurveyNavigatorUI"
         android:layout_width="250dp"
         android:layout_height="218dp"
         android:layout_marginStart="149dp"
@@ -140,7 +139,7 @@
         app:srcCompat="@drawable/areyoureadyhighres_removebg_preview" />
 
     <Button
-        android:id="@+id/startSurveyButton"
+        android:id="@+id/startSurveyButtonYes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="177dp"
@@ -150,17 +149,17 @@
         android:text="YES"
         android:textColorLink="@color/background_gradient_start"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@id/imageView5"
-        app:layout_constraintEnd_toEndOf="@id/imageView5"
+        app:layout_constraintBottom_toBottomOf="@id/MainMenu_backgroundimage"
+        app:layout_constraintEnd_toEndOf="@id/MainMenu_backgroundimage"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@id/imageView5"
+        app:layout_constraintStart_toStartOf="@id/MainMenu_backgroundimage"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.387"
         tools:ignore="HardcodedText,MissingConstraints"
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/startSurveyButtonNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
@@ -170,10 +169,10 @@
         android:text="NO"
         android:textColorLink="#B3B3B3"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="@id/imageView5"
-        app:layout_constraintEnd_toEndOf="@id/imageView5"
+        app:layout_constraintBottom_toBottomOf="@id/MainMenu_backgroundimage"
+        app:layout_constraintEnd_toEndOf="@id/MainMenu_backgroundimage"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@id/imageView5"
+        app:layout_constraintStart_toStartOf="@id/MainMenu_backgroundimage"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045"
         tools:ignore="HardcodedText,MissingConstraints"
